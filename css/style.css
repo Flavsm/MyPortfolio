@@ -788,6 +788,66 @@ b i:last-child {
   transform: translateX(0);
 }
 
+/* ///////////////// ADDED MYSELF/////////////////*/
+.roundIt {
+  border-radius: 10%;
+}
+
+.roundImage {
+  border-radius: 10%;
+}
+
+.socialsList {
+  display: inline-block;
+}
+
+.socialsList .bi {
+  font-size: 2.5rem;
+}
+
+.socialListItems {
+  display: flex;
+  justify-content: space-around;
+  width: 18rem;
+  margin-left: -5rem;
+}
+
+.indexSocial {
+  color: rgba(28, 101, 140, 1);
+}
+
+.indexSocial {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* .indexSocial a:hover {
+  color: red;
+} */
+
+.itemSocial {
+  color: black !important;
+}
+
+.itemSocial {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.itemSocial a:hover {
+  color: black;
+}
+
+.menuSocial {
+  color: white;
+}
+
+.homeCircle {
+  color: #398ab9;
+  font-size: 1rem;
+}
+/* ///////////////// ADDED MYSELF /////////////////*/
+
 .portfolio .categories-grid .categories ul li {
   float: left;
 }
@@ -922,7 +982,7 @@ footer img {
   text-decoration: none;
 }
 
-.social-ul {
+/* .social-ul {
   list-style: none;
   display: inline-block;
   padding-left: 0;
@@ -942,7 +1002,7 @@ footer img {
 
 .social-ul li a:hover {
   color: #888;
-}
+} */
 
 /* Services page
 ==================================================*/
